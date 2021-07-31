@@ -9929,6 +9929,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10013,4 +10017,37 @@ h3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.testimoni {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.testimoni h1 {
+  font-weight: 700;
+}
+.testimoni .testi img {
+  width: 80px;
+  border-radius: 100%;
+}
+.testimoni .testi p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.testimoni .testi .testi-footer p {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.testimoni .testi .testi-footer span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.gallery img {
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  object-fit: cover;
 }
