@@ -10051,3 +10051,9 @@ html {
   overflow: hidden;
   object-fit: cover;
 }
+
+footer {
+  color: #25564b;
+  background-color: #458c7e;
+  height: 200px;
+}
