@@ -1,6 +1,10 @@
 @import url('https://fonts.google.com/specimen/Barlow');
+@import url('https://fonts.google.com/specimen/Fraunces');
 @import "../../vendor/bootstrap/scss/bootstrap.scss";
 
+h1{
+    font-family: 'Fraunces', sans-serif;
+}
 
 html{
     overflow-x: hidden;
@@ -9,7 +13,6 @@ html{
     margin: 0;
     padding:0;
     box-sizing:border-box;
-    font-family: 'Barlow', sans-serif;
 }
 @media (max-width: 509px) { 
     .home{
@@ -131,12 +134,12 @@ html{
             border-radius: 100%;
         }
         p{
-            font-size: 18px;
+            font-size: 15px;
             font-weight: 300;
         }
         .testi-footer{
             p{
-                font-size: 28px;
+                font-size: 18px;
                 font-weight: 800;
                 margin-bottom: 0px;
             }
@@ -169,6 +172,7 @@ footer{
 
     a{
      color:white;
+    font-size: 18px;
     }
     
 }

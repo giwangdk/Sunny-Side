@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.google.com/specimen/Barlow");
+@import url("https://fonts.google.com/specimen/Fraunces");
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -9929,6 +9930,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+h1 {
+  font-family: "Fraunces", sans-serif;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -9937,7 +9942,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Barlow", sans-serif;
 }
 
 @media (max-width: 509px) {
@@ -10033,11 +10037,11 @@ html {
   border-radius: 100%;
 }
 .testimoni .testi p {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
 }
 .testimoni .testi .testi-footer p {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 800;
   margin-bottom: 0px;
 }
@@ -10063,4 +10067,5 @@ footer h3 {
 }
 footer a {
   color: white;
+  font-size: 18px;
 }
